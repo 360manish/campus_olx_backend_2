@@ -149,7 +149,7 @@ router.post("/newItem/:cat", fetchuser, async (req, res) => {           // POST 
                 is_banned:user.is_banned
 
             });
-            const url = "http://localhost:5000/" + img_path;      // the url of the image uploaded in the server as a response.
+            const url = "https://campus-olx-iitg.onrender.com/" + img_path;      // the url of the image uploaded in the server as a response.
             res.status(200).json({ "url": url })
         }
 
