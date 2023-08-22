@@ -4,7 +4,8 @@
   "description": "Campus Olx",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
   },
   "author": "JKP-2001",
   "license": "ISC",
